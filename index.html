@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Фиджитал практики</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="floating-header" id="floatingHeader">
+
+  <nav class="floating-header__nav">
+
+    <a href="#visual-media" class="floating-header__link">
+      видео
+    </a>
+
+    <a href="#light" class="floating-header__link">
+      свет
+    </a>
+
+    <a href="#sound" class="floating-header__link">
+      звук
+    </a>
+
+    <a href="#interaction" class="floating-header__link">
+      интерактив
+    </a>
+
+    <a href="#perception" class="floating-header__link">
+      восприятие
+    </a>
+
+    =</nav>
+
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+
+      <div class="hero__inner">
+
+        <!-- LEFT -->
+        <div class="hero__content">
+
+          <div class="hero__label">
+            исследование выставочного опыта
+          </div>
+
+          <h1 class="hero__title">
+            Медиа и фиджитал практики
+            <span>в выставочных пространствах</span>
+          </h1>
+
+          <p class="hero__text">
+            Как свет, звук, видео и интерактивные технологии
+            меняют восприятие пространства: направляют внимание,
+            создают атмосферу и превращают просмотр в опыт.
+          </p>
+
+          <div class="hero__meta" aria-label="Темы проекта">
+
+            <a class="hero__chip" href="#visual-media">видео</a>
+            <a class="hero__chip" href="#light">свет</a>
+            <a class="hero__chip" href="#sound">звук</a>
+            <a class="hero__chip" href="#interaction">интерактив</a>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="hero__visual">
+
+          <div class="video-shell">
+
+            <video
+              class="hero-video"
+              autoplay
+              muted
+              loop
+              playsinline
+              poster="media/hero-poster.jpg"
+            >
+              <source
+                src="media/HeroBlock.mp4"
+                type="video/mp4"
+              />
+            </video>
+
+            <div class="video-overlay"></div>
+
+            <div class="video-top">
+              <span class="rec">REC</span>
+              <span>visual research</span>
+            </div>
+
+            <div class="video-bottom">
+              <span>00:18</span>
+
+              <span class="progress"></span>
+
+              <span>light / motion</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- SCROLL -->
+        <a class="hero__scroll" href="#perception">
+
+          <span></span>
+
+          <p>скролл к восприятию</p>
+
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- ABOUT / TIMELINE -->
+    <section class="about" id="about">
+
+      <div class="about__container">
+
+        <!-- TOP -->
+        <div class="about__intro">
+
+          <div class="about__label">
+            о проекте
+          </div>
+
+          <div class="about__content">
+
+            <h2 class="about__title">
+              Трансформация
+              выставочного пространства
+            </h2>
+
+            <p class="about__text">
+              Выставочные пространства постепенно перестали выполнять
+исключительно информационную функцию. Сегодня свет,
+мультимедиа, звук и интерактивные технологии используются
+для формирования атмосферы, эмоционального воздействия
+и вовлечения посетителя в среду.
+            </p>
+
+            <p class="about__text">
+              Технологии меняют не только способ демонстрации объектов,
+но и сам принцип восприятия пространства: внимание,
+навигацию, эмоциональную реакцию и степень погружения
+пользователя в происходящее.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="timeline">
+
+          <!-- LINE -->
+          <div class="timeline__line"></div>
+
+          <!-- POINT 1 -->
+          <button
+            class="timeline__point is-active"
+            data-timeline="0"
+            type="button"
+          >
+            <span class="timeline__dot"></span>
+
+            <span class="timeline__year">
+              до XX века
+            </span>
+
+            <span class="timeline__name">
+              классическая экспозиция
+            </span>
+          </button>
+
+          <!-- POINT 2 -->
+          <button
+            class="timeline__point"
+            data-timeline="1"
+            type="button"
+          >
+            <span class="timeline__dot"></span>
+
+            <span class="timeline__year">
+              1920–1960
+            </span>
+
+            <span class="timeline__name">
+              свет и сценография
+            </span>
+          </button>
+
+          <!-- POINT 3 -->
+          <button
+            class="timeline__point"
+            data-timeline="2"
+            type="button"
+          >
+            <span class="timeline__dot"></span>
+
+            <span class="timeline__year">
+              1970–1990
+            </span>
+
+            <span class="timeline__name">
+              мультимедиа
+            </span>
+          </button>
+
+          <!-- POINT 4 -->
+          <button
+            class="timeline__point"
+            data-timeline="3"
+            type="button"
+          >
+            <span class="timeline__dot"></span>
+
+            <span class="timeline__year">
+              2000–2010
+            </span>
+
+            <span class="timeline__name">
+              интерактив
+            </span>
+          </button>
+
+          <!-- POINT 5 -->
+          <button
+            class="timeline__point"
+            data-timeline="4"
+            type="button"
+          >
+            <span class="timeline__dot"></span>
+
+            <span class="timeline__year">
+              2010–н.в.
+            </span>
+
+            <span class="timeline__name">
+              иммерсивные среды
+            </span>
+          </button>
+
+        </div>
+
+        <!-- TIMELINE CONTENT -->
+        <div class="timeline-content">
+
+          <!-- ITEM 1 -->
+          <article
+            class="timeline-card is-active"
+            data-content="0"
+          >
+
+            <div class="timeline-card__image">
+              <img
+                src="media/time1.jpg"
+                alt="Классическая экспозиция"
+              >
+            </div>
+
+            <div class="timeline-card__info">
+
+              <span class="timeline-card__period">
+                до XX века
+              </span>
+
+              <h3 class="timeline-card__title">
+                Классическая экспозиция
+              </h3>
+
+              <p class="timeline-card__text">
+                Выставочные пространства выполняли преимущественно
+информационную функцию: демонстрацию объектов,
+произведений и артефактов.
+              </p>
+
+            </div>
+
+          </article>
+
+          <!-- ITEM 2 -->
+          <article
+            class="timeline-card"
+            data-content="1"
+          >
+
+            <div class="timeline-card__image">
+              <img
+                src="media/time2.jpg"
+                alt="Свет и сценография"
+              >
+            </div>
+
+            <div class="timeline-card__info">
+
+              <span class="timeline-card__period">
+                1920–1960
+              </span>
+
+              <h3 class="timeline-card__title">
+                Свет и сценография
+              </h3>
+
+              <p class="timeline-card__text">
+                Пространства начинают использовать освещение
+и композицию как инструмент эмоционального
+воздействия и направления внимания.
+              </p>
+
+            </div>
+
+          </article>
+
+          <!-- ITEM 3 -->
+          <article
+            class="timeline-card"
+            data-content="2"
+          >
+
+            <div class="timeline-card__image">
+              <img
+                src="media/time3.jpg"
+                alt="Мультимедиа"
+              >
+            </div>
+
+            <div class="timeline-card__info">
+
+              <span class="timeline-card__period">
+                1970–1990
+              </span>
+
+              <h3 class="timeline-card__title">
+                Мультимедиа
+              </h3>
+
+              <p class="timeline-card__text">
+                Появляются видео, проекции и электронные технологии,
+расширяющие способы подачи информации и визуального
+взаимодействия.
+              </p>
+
+            </div>
+
+          </article>
+
+          <!-- ITEM 4 -->
+          <article
+            class="timeline-card"
+            data-content="3"
+          >
+
+            <div class="timeline-card__image">
+              <img
+                src="media/time4.jpg"
+                alt="Интерактив"
+              >
+            </div>
+
+            <div class="timeline-card__info">
+
+              <span class="timeline-card__period">
+                2000–2010
+              </span>
+
+              <h3 class="timeline-card__title">
+                Интерактив
+              </h3>
+
+              <p class="timeline-card__text">
+                Посетитель становится участником: сенсоры,
+экраны и цифровые интерфейсы создают
+взаимодействие со средой.
+              </p>
+
+            </div>
+
+          </article>
+
+          <!-- ITEM 5 -->
+          <article
+            class="timeline-card"
+            data-content="4"
+          >
+
+            <div class="timeline-card__image">
+              <img
+                src="media/time5.jpg"
+                alt="Иммерсивные среды"
+              >
+            </div>
+
+            <div class="timeline-card__info">
+
+              <span class="timeline-card__period">
+                2010–настоящее время
+              </span>
+
+              <h3 class="timeline-card__title">
+                Иммерсивные среды
+              </h3>
+
+              <p class="timeline-card__text">
+                Пространство превращается в погружающую
+медиа-среду, воздействующую на восприятие,
+эмоции и телесный опыт посетителя.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- TECHNOLOGIES -->
+    <section class="technologies" id="technologies">
+
+      <div class="technologies__container">
+
+        <!-- INTRO -->
+        <div class="technologies__intro">
+
+          <div class="technologies__label"> технологии </div>
+
+      <div class="technologies__content">
+        <h2 class="technologies__title">
+          Технологии как способ
+          воздействия на восприятие
+        </h2>
+
+        <p class="technologies__text">
+          Иммерсивность возникает не только за счёт изображения.
+Выставочная среда воздействует на разные органы чувств:
+зрение, слух, осязание, движение в пространстве.
+        </p>
+
+        <p class="technologies__text">
+          Чаще всего основой становятся визуальные медиа: свет,
+проекции, видео, анимации и цифровые объекты. Звук,
+интерактив и сенсорные практики усиливают это воздействие
+и помогают посетителю почувствовать себя частью среды.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- SENSES -->
+    <div class="senses">
+
+      <article class="sense-card">
+        <span class="sense-card__number">01</span>
+        <h3 class="sense-card__title">зрение</h3>
+        <p class="sense-card__text">
+          Свет, проекции, видео, цвет и движение формируют первое
+          впечатление о пространстве.
+        </p>
+      </article>
+
+      <article class="sense-card">
+        <span class="sense-card__number">02</span>
+        <h3 class="sense-card__title">слух</h3>
+        <p class="sense-card__text">
+          Звук дополняет визуальную среду и усиливает ощущение
+          присутствия.
+        </p>
+      </article>
+
+      <article class="sense-card">
+        <span class="sense-card__number">03</span>
+        <h3 class="sense-card__title">осязание</h3>
+        <p class="sense-card__text">
+          Касания, кнопки, сенсоры и физические объекты делают
+          посетителя участником действия.
+        </p>
+      </article>
+
+    </div>
+
+    <!-- VISUAL MEDIA -->
+    <article class="tech-block tech-block--visual" id="visual-media">
+
+      <div class="tech-block__header">
+        <span class="tech-block__eyebrow">визуальные медиа</span>
+
+        <h3 class="tech-block__title">
+          Проекции, видео и цифровое движение
+        </h3>
+
+        <p class="tech-block__text">
+          Визуальные медиа становятся основой многих современных
+экспозиций: они задают ритм, масштаб и ощущение движения.
+Проекции, анимации и голографические элементы позволяют
+пространству постоянно меняться.
+        </p>
+      </div>
+
+      <div class="projector-gallery" aria-label="Галерея визуальных медиа">
+
+        <button class="projector-gallery__button projector-gallery__button--prev" type="button">
+          ←
+        </button>
+
+        <div class="projector-gallery__stage">
+
+          <img class="projector-gallery__image is-active" src="media/visual-1.png" alt="Визуальные медиа 1">
+          <img class="projector-gallery__image" src="media/visual-2.png" alt="Визуальные медиа 2">
+          <img class="projector-gallery__image" src="media/visual-3.png" alt="Визуальные медиа 3">
+          <img class="projector-gallery__image" src="media/visual-4.png" alt="Визуальные медиа 4">
+          <img class="projector-gallery__image" src="media/visual-5.png" alt="Визуальные медиа 5">
+          <img class="projector-gallery__image" src="media/visual-6.png" alt="Визуальные медиа 6">
+          <img class="projector-gallery__image" src="media/visual-7.png" alt="Визуальные медиа 7">
+          <img class="projector-gallery__image" src="media/visual-8.png" alt="Визуальные медиа 8">
+          <img class="projector-gallery__image" src="media/visual-9.png" alt="Визуальные медиа 9">
+          <img class="projector-gallery__image" src="media/visual-10.jpg" alt="Визуальные медиа 10">
+          <img class="projector-gallery__image" src="media/visual-11.jpg" alt="Визуальные медиа 11">
+
+        </div>
+
+        <button class="projector-gallery__button projector-gallery__button--next" type="button">
+          →
+        </button>
+
+      </div>
+
+    </article>
+
+    <!-- LIGHT -->
+    <article class="tech-block tech-block--light" id="light">
+
+      <div class="tech-block__header">
+        <span class="tech-block__eyebrow">свет</span>
+
+        <h3 class="tech-block__title">
+          Цвет как настройка атмосферы
+        </h3>
+
+        <p class="tech-block__text">
+          Свет влияет на эмоциональное чтение пространства. Один и тот
+же объект может восприниматься холодным, тревожным,
+торжественным или спокойным в зависимости от цвета,
+интенсивности и направления освещения.
+        </p>
+      </div>
+
+      <div class="light-experience" data-active-color="blue">
+
+        <div class="light-controls" aria-label="Переключение цвета света">
+
+          <button class="light-control is-active" type="button" data-light="blue">
+            синий
+          </button>
+
+          <button class="light-control" type="button" data-light="violet">
+            фиолетовый
+          </button>
+
+          <button class="light-control" type="button" data-light="red">
+            красный
+          </button>
+
+          <button class="light-control" type="button" data-light="white">
+            белый
+          </button>
+
+        </div>
+
+        <div class="light-experience__body">
+
+          <div class="light-info">
+
+            <span class="light-info__label">
+              активный свет
+            </span>
+
+            <h4 class="light-info__title">
+              Синий
+            </h4>
+
+            <p class="light-info__text">
+              Синий свет часто создаёт ощущение глубины, холода,
+дистанции и технологичности. Он помогает усилить
+впечатление от медиа-среды и выделить пространство
+как необычное.
+            </p>
+
+          </div>
+
+          <div class="light-gallery">
+
+            <img class="light-gallery__image is-visible" data-color="blue" src="media/light-1.jpg" alt="Синий свет 1">
+            <img class="light-gallery__image is-visible" data-color="blue" src="media/light-10.jpg" alt="Синий свет 2">
+            <img class="light-gallery__image is-visible" data-color="blue" src="media/light-11.jpg" alt="Синий свет 3">
+            <img class="light-gallery__image is-visible" data-color="blue" src="media/light-12.jpg" alt="Синий свет 4">
+            <img class="light-gallery__image is-visible" data-color="blue" src="media/light-15.png" alt="Синий свет 5">
+
+            <img class="light-gallery__image" data-color="violet" src="media/light-2.png" alt="Фиолетовый свет 1">
+            <img class="light-gallery__image" data-color="violet" src="media/light-6.jpg" alt="Фиолетовый свет 2">
+            <img class="light-gallery__image" data-color="violet" src="media/light-7.jpg" alt="Фиолетовый свет 3">
+            <img class="light-gallery__image" data-color="violet" src="media/light-9.jpg" alt="Фиолетовый свет 4">
+            <img class="light-gallery__image" data-color="violet" src="media/light-5.jpg" alt="Фиолетовый свет 5">
+
+            <img class="light-gallery__image" data-color="red" src="media/light-3.jpg" alt="Красный свет 1">
+            <img class="light-gallery__image" data-color="red" src="media/light-4.jpg" alt="Красный свет 2">
+
+            <img class="light-gallery__image" data-color="white" src="media/light-8.jpg" alt="Белый свет 1">
+            <img class="light-gallery__image" data-color="white" src="media/light-13.jpg" alt="Белый свет 2">
+            <img class="light-gallery__image" data-color="white" src="media/light-14.jpg" alt="Белый свет 3">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </article>
+
+    <!-- INTERACTION -->
+    <article class="tech-block tech-block--interaction" id="interaction">
+
+      <div class="tech-block__header">
+        <span class="tech-block__eyebrow">интерактив</span>
+
+        <h3 class="tech-block__title">
+          Когда зритель становится участником
+        </h3>
+
+        <p class="tech-block__text">
+          Интерактивные элементы меняют роль посетителя: он не только
+смотрит, но и выбирает, нажимает, двигается, касается,
+проверяет реакцию системы и влияет на ход восприятия.
+        </p>
+      </div>
+
+      <div class="interaction-playground">
+
+        <div class="interaction-playground__track interaction-playground__track--top">
+          <img src="media/interaction-1.png" alt="Интерактив 1">
+          <img src="media/interaction-2.png" alt="Интерактив 2">
+          <img src="media/interaction-3.png" alt="Интерактив 3">
+          <img src="media/interaction-4.png" alt="Интерактив 4">
+          <img src="media/interaction-5.png" alt="Интерактив 5">
+        </div>
+
+        <div class="interaction-playground__drag-zone">
+          <button class="interaction-playground__button" type="button">
+            нажми меня
+          </button>
+        </div>
+
+        <div class="interaction-playground__track interaction-playground__track--bottom">
+          <img src="media/interaction-6.png" alt="Интерактив 6">
+          <img src="media/interaction-7.png" alt="Интерактив 7">
+          <img src="media/interaction-8.png" alt="Интерактив 8">
+          <img src="media/interaction-9.jpg" alt="Интерактив 9">
+          <img src="media/interaction-10.png" alt="Интерактив 10">
+        </div>
+
+      </div>
+
+    </article>
+
+    <!-- SOUND -->
+    <article class="tech-block tech-block--sound" id="sound">
+
+      <div class="tech-block__header">
+        <span class="tech-block__eyebrow">звук</span>
+
+        <h3 class="tech-block__title">
+          Аудио как усиление присутствия
+        </h3>
+
+        <p class="tech-block__text">
+          Звук помогает пространству восприниматься не только визуально.
+Он задаёт ритм, усиливает движение объектов, подчёркивает
+атмосферу и делает происходящее более телесным и объёмным.
+        </p>
+      </div>
+
+      <div class="sound-grid">
+
+        <article class="sound-card">
+          <video class="sound-card__video" controls playsinline>
+            <source src="media/sound1.mp4" type="video/mp4">
+          </video>
+
+          <div class="sound-card__info">
+            <h4>Светящаяся среда</h4>
+            <p>
+              Звук усиливает ощущение пространства: светящиеся объекты
+воспринимаются не как отдельные элементы, а как цельная среда.
+            </p>
+          </div>
+        </article>
+
+        <article class="sound-card">
+          <video class="sound-card__video" controls playsinline>
+            <source src="media/sound2.mp4" type="video/mp4">
+          </video>
+
+          <div class="sound-card__info">
+            <h4>Механический ритм</h4>
+            <p>
+              Звук работающего механизма добавляет телесности и помогает
+почувствовать процесс, даже если посетитель только наблюдает.
+            </p>
+          </div>
+        </article>
+
+        <article class="sound-card">
+          <video class="sound-card__video" controls playsinline>
+            <source src="media/sound3.mp4" type="video/mp4">
+          </video>
+
+          <div class="sound-card__info">
+            <h4>Движение объекта</h4>
+            <p>
+              Аудио подчёркивает движение и делает объект более выразительным,
+превращая его в часть сценария пространства.
+            </p>
+          </div>
+        </article>
+
+        <article class="sound-card">
+          <video class="sound-card__video" controls playsinline>
+            <source src="media/sound4.mp4" type="video/mp4">
+          </video>
+
+          <div class="sound-card__info">
+            <h4>Природная атмосфера</h4>
+            <p>
+              Звуковая среда может имитировать присутствие в другом месте:
+например, усиливать ощущение леса, глубины или удалённости.
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- PERCEPTION -->
+    <section class="perception" id="perception">
+
+  <div class="perception__header">
+
+  <span class="perception__eyebrow">
+    восприятие аудитории
+  </span>
+
+  <div class="perception__content">
+
+    <h2 class="perception__title">
+      Иммерсивность воспринимается по‑разному
+    </h2>
+
+    <p class="perception__text">
+      Возраст и особенности восприятия влияют на то, как человек
+взаимодействует с выставочным пространством. Одни зрители
+вовлекаются через действие и движение, другие — через
+атмосферу, информацию и эмоциональное погружение.
+    </p>
+
+  </div>
+
+</div>
+
+  <div class="perception-line"></div>
+
+  <div class="perception-grid">
+
+  <!-- MAIN CARD -->
+
+  <article class="perception-card perception-card--accent">
+
+    <span class="perception-card__age">
+      молодые взрослые
+    </span>
+
+    <h3 class="perception-card__title">
+      Полноценное погружение
+    </h3>
+
+    <p class="perception-card__text">
+      Молодая аудитория чаще воспринимает выставку как
+целостный опыт: сочетание света, звука, движения,
+пространства и сценария взаимодействия. Именно на эту
+группу обычно ориентированы иммерсивные практики.
+    </p>
+
+    <div class="perception-card__tags">
+      <span>иммерсивность</span>
+      <span>звук</span>
+      <span>медиа-среда</span>
+    </div>
+
+  </article>
+
+  <!-- SIDE CARDS -->
+
+  <div class="perception-grid__side">
+
+    <article class="perception-card">
+
+      <span class="perception-card__age">дети</span>
+
+      <h3 class="perception-card__title">
+        Восприятие через действие
+      </h3>
+
+      <p class="perception-card__text">
+        Детям важно взаимодействовать со средой физически:
+нажимать, двигать, трогать и влиять на происходящее.
+Их внимание быстро переключается, поэтому интерактивные
+элементы удерживают вовлечённость лучше статичного
+наблюдения.
+      </p>
+
+      <div class="perception-card__tags">
+        <span>сенсоры</span>
+        <span>движение</span>
+        <span>интерактив</span>
+      </div>
+
+    </article>
+
+    <article class="perception-card">
+
+      <span class="perception-card__age">подростки</span>
+
+      <h3 class="perception-card__title">
+        Эмоция и вау-эффект
+      </h3>
+
+      <p class="perception-card__text">
+        Подростков сильнее вовлекают визуальные эффекты,
+необычный свет и масштабные медиа-среды. Они могут быть
+менее внимательны к деталям, но эмоционально сильнее
+реагируют на атмосферу пространства.
+      </p>
+
+      <div class="perception-card__tags">
+        <span>свет</span>
+        <span>проекции</span>
+        <span>атмосфера</span>
+      </div>
+
+    </article>
+
+    <article class="perception-card">
+
+      <span class="perception-card__age">
+        старшее поколение
+      </span>
+
+      <h3 class="perception-card__title">
+        Информация и структура
+      </h3>
+
+      <p class="perception-card__text">
+        Старшее поколение чаще концентрируется на содержательной
+части выставки. Для восприятия особенно важны читаемость,
+понятная навигация и визуальные материалы, помогающие
+раскрыть тему без перегрузки.
+      </p>
+
+      <div class="perception-card__tags">
+        <span>визуальные медиа</span>
+        <span>навигация</span>
+        <span>структура</span>
+      </div>
+
+    </article>
+
+  </div>
+
+</div>
+
+    </section>
+
+    <!-- AUTHOR ROLE -->
+    <section class="author-role" id="author-role">
+
+  <div class="author-role__header">
+
+    <span class="author-role__eyebrow">
+      роль автора
+    </span>
+
+    <div class="author-role__content">
+
+      <h2 class="author-role__title">
+        Иммерсивность требует сценария
+      </h2>
+
+      <p class="author-role__text">
+        Автор выставочной концепции работает не только с темой и
+визуальными материалами, но и с человеческим восприятием.
+Важно продумывать, какие органы чувств задействуются,
+как долго посетитель находится внутри инсталляции и где
+впечатление может перейти в перегруз.
+      </p>
+
+      <p class="author-role__text">
+        Свет, звук, движение, интерактив и визуальные медиа должны
+работать как единая система. Если эффект длится слишком долго
+или повторяется без развития, он перестаёт вовлекать и начинает
+утомлять.
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="author-role__body">
+
+  <div class="overload-examples">
+
+    <article class="overload-card">
+
+      <div class="overload-card__video-wrap">
+        <iframe
+          src="https://player.vimeo.com/video/1196357077?badge=0&autopause=0&player_id=0&app_id=58479"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="overload-card__info">
+        <span class="overload-card__label">пример перегруза</span>
+
+        <h3 class="overload-card__title">
+          Длительная анимация
+        </h3>
+
+        <p class="overload-card__text">
+          Визуальный эффект может быть интересен в начале, но при
+длительности около десяти минут однотипное движение начинает
+утомлять.
+        </p>
+      </div>
+
+    </article>
+
+    <article class="overload-card">
+
+      <div class="overload-card__video-wrap">
+        <iframe
+          src="https://player.vimeo.com/video/1196375839?badge=0&autopause=0&player_id=0&app_id=58479"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="overload-card__info">
+        <span class="overload-card__label">пример перегруза</span>
+
+        <h3 class="overload-card__title">
+          Повторяющаяся сфера
+        </h3>
+
+        <p class="overload-card__text">
+          Короткий визуальный цикл сначала воспринимается как
+эффектный объект наблюдения, но при повторении теряет новизну.
+        </p>
+      </div>
+
+    </article>
+
+  </div>
+
+  <div class="author-role__grid">
+
+    <article class="author-role-card author-role-card--main">
+      <span class="author-role-card__number">01</span>
+
+      <h3 class="author-role-card__title">
+        Человеческий фактор
+      </h3>
+
+      <p class="author-role-card__text">
+        При проектировании важно учитывать внимание, усталость,
+скорость восприятия и разницу между зрительным, слуховым
+и телесным опытом посетителя.
+      </p>
+    </article>
+
+    <article class="author-role-card">
+      <span class="author-role-card__number">02</span>
+
+      <h3 class="author-role-card__title">
+        Баланс чувств
+      </h3>
+
+      <p class="author-role-card__text">
+        Иммерсивность появляется не от количества технологий,
+а от их согласованности: свет, звук, движение и интерактив
+должны усиливать друг друга.
+      </p>
+    </article>
+
+    <article class="author-role-card">
+      <span class="author-role-card__number">03</span>
+
+      <h3 class="author-role-card__title">
+        Риск перегруза
+      </h3>
+
+      <p class="author-role-card__text">
+        Длительный однотипный эффект может потерять выразительность.
+То, что сначала кажется впечатляющим, со временем начинает
+восприниматься как визуальный шум.
+      </p>
+    </article>
+
+  </div>
+
+</div>
+
+    </section>
+
+    <!-- FINAL -->
+    <section class="final-section" id="final">
+
+  <div class="final-section__header">
+
+    <span class="final-section__eyebrow">
+      вывод
+    </span>
+
+    <div class="final-section__content">
+
+      <h2 class="final-section__title">
+        Технологии работают только вместе с восприятием человека
+      </h2>
+
+      <p class="final-section__text">
+        Иммерсивная выставочная среда строится не только на количестве
+цифровых инструментов, но и на понимании человеческого восприятия.
+Свет, звук, видео и интерактив становятся частью общего сценария,
+который формирует эмоциональный и визуальный опыт посетителя.
+      </p>
+
+      <p class="final-section__text">
+        Именно баланс между технологией, атмосферой и вниманием к зрителю
+позволяет создавать пространство, в котором человек не просто
+наблюдает, а ощущает себя частью среды.
+      </p>
+
+    </div>
+
+  </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+      <div class="footer__left"> Иммерсивные технологии в выставочном пространстве </div>
+      <div class="footer__center"> СПбГУПТД · 2026 </div>
+      <div class="footer__right">
+
+    <a href="#visual-media">видео</a>
+    <a href="#light">свет</a>
+    <a href="#sound">звук</a>
+    <a href="#interaction">интерактив</a>
+    <a href="#perception">восприятие</a>
+
+  </div>
+
+</footer>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
